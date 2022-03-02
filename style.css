@@ -1,0 +1,48 @@
+root{
+  
+}
+
+*{
+  box-sizing:border-box;
+  outline:none;
+}
+body{
+  background-color: #ccc;
+  color:black;
+  text-align:center
+}
+#main {
+   display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+#img-div{
+   background-color: white;
+   width:100%;
+   text-aling:center;
+}
+img {
+  max-width: 100%;
+  display:blok;
+  margin:auto;
+}
+#tribute-info{
+  width:50%;
+  text-align:left;
+}
+#tribute-info ul li span{
+  font-weight:800;
+  font-size:18px;
+}
+h3{
+  text-align:center;
+}
+#tribute-info ul li {
+  margin-top:20px;
+  
+}
+#tribute-info p {
+  margin-top:20px;
+  font-style:italic;
+}
